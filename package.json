@@ -1,0 +1,22 @@
+{
+  "name": "gaffa-concat",
+  "author": "Kory Nunn <knunn187@gmail.com>",
+  "version": "1.0.0",
+  "main": "concat.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoryNunn/gaffa-concat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/gaffa-concat/issues"
+  },
+  "keywords": [
+    "gaffa",
+    "concat",
+    "action"
+  ],
+  "peerDependencies": {
+    "gaffa": "^1.0.0"
+  },
+  "license": "MIT"
+}
