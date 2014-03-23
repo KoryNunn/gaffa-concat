@@ -1,5 +1,4 @@
 var Gaffa = require('gaffa'),
-    fastEach = require('fasteach'),
     actionType = "concat";
 
 function Concat(){}
@@ -18,9 +17,9 @@ Concat.prototype.trigger = function(){
 
     if(target && target.concat){
         if(Array.isArray(target) && !(this.clone && this.clone.value === false)){
-            fastEach(source, function(item, index){
-                source[index] = gaffa.clone(item);
-            });
+            for(var i = 0; i < source.length; i++) {
+                source[i] = gaffa.clone(source[i]);
+            }
         }
         this.target.set(this.target.value.concat(source), this);
     }
