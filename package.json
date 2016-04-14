@@ -5,7 +5,7 @@
   "main": "concat.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KoryNunn/gaffa-concat.git"
+    "url": "git+https://github.com/KoryNunn/gaffa-concat.git"
   },
   "bugs": {
     "url": "https://github.com/KoryNunn/gaffa-concat/issues"
@@ -18,5 +18,10 @@
   "peerDependencies": {
     "gaffa": "^1.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "description": "gaffa-concat ============",
+  "homepage": "https://github.com/KoryNunn/gaffa-concat#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
